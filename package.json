@@ -1,0 +1,19 @@
+{
+  "name": "online_invitation",
+  "version": "1.0.0",
+  "description": "an online invitation for events that handles guest list and rsvp",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/"
+  },
+  "author": "Bojan Stojkovski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "type": "module"
+}
