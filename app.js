@@ -5,7 +5,10 @@ const express = require("express");
 import { readFile, writeFile } from "fs/promises";
 
 var allowCrossDomain = function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:5173");
+  res.header(
+    "Access-Control-Allow-Origin",
+    "https://online-invitation-fe-1.onrender.com"
+  );
   res.header("Access-Control-Allow-Credentials", "true");
   res.header("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,OPTIONS");
   res.header(
